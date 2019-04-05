@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Labo4</string>
+    <string name="movie_name">name</string>
+    <string name="movie_title_string">Title:</string>
+    <string name="rate_movie_string">Rate:</string>
+    <string name="n_a_value">N/A</string>
+    <string name="movie_details">details</string>
+    <string name="movie_duration">time</string>
+</resources>
