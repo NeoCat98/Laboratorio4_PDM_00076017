@@ -18,7 +18,7 @@ class movieAdapter(var movies: List<Movie>): RecyclerView.Adapter<movieAdapter.V
 
     override fun onBindViewHolder(holder: movieAdapter.ViewHolder, p1: Int):Unit = holder.bind(movies[p1])
 
-    fun ChangeList(movies:List<Movie>){
+    fun changeList(movies:List<Movie>){
         this.movies = movies
         notifyDataSetChanged()
     }
